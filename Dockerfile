@@ -24,4 +24,4 @@ COPY --from=builder /app/txlib ./txlib
 EXPOSE 8080
 
 # 启动项目
-CMD ["java", "-jar", "unidbg-fetch-qsign-all.jar", "--basePath=./txlib/8.9.71"]
+CMD ["java", "-jar", "unidbg-fetch-qsign-all.jar", "--basePath=./txlib/8.9.70"]
